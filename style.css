@@ -219,12 +219,12 @@ label #btn, label #cancel {
 
 @keyframes typing {
     0% { width:0 }
-  25% { width: 50% }
-  48% { width: 92% }
-  50% { width: 92% }
-  55% { width: 92% }
-  75% { width: 50%; }
-  85% { width: 30%; }
+  25% { width: 40% }
+  48% { width: 60% }
+  50% { width: 60% }
+  55% { width: 60% }
+  75% { width: 40%; }
+  85% { width: 20%; }
   100% { width: 0; }
 }
 
@@ -927,6 +927,8 @@ footer p {
     right: 20px;
     top: 20px;
     z-index: 999;
+    margin-top:-30px;
+    
   }
   
   #main {
