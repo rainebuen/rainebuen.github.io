@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lhoraine Buen</title>
+  <link rel="icon" href="icon.png" type = "image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fa fa-bars" id="btn"></i>
+    <i class="fa fa-times" id="cancel"></i>
+  </label>
+  <div class="logo slide-in-left-nav"> 
+    <a href="#"><img src="logo.png" alt="rainelogo"></a>
+  </div> 
+  
+  <ul class="nav-links">
+    <li class="nav-item" style="--delay: 0s;"><a href="#main" class="active">Home</a></li>
+    <li class="nav-item" style="--delay: 0.1s;"><a href="#about">About me</a></li>
+    <li class="nav-item" style="--delay: 0.2s;"><a href="#portfolio">Portfolio</a></li>
+    <li class="nav-item" style="--delay: 0.3s;"><button class="contact" onclick="scrollToContactMe()">CONTACT ME</button></li>
+  </ul>
+</nav>
+
+<!-- Main Section -->
+<section id="main" data-link="#main">
+  <div class="text-content slide-in-left">
+    <h2>Hello, I am</h2>
+    <h1>Lhoraine Buen</h1>
+    <div class="container">
+      <div class="typed-out">
+        An Aspiring <span>Web Developer</span> and <span>UI Designer</span>.
+      </div>
+    </div>
+
+    <div class="btn-content">
+      <button class="downloadbtn">Download CV <i class="fa fa-download"></i></button>   
+      <div class="social-media-btn"> 
+        <a href="mailto:lhorainejoycebuen@gmail.com" class="social-icon"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/rainebuen" class="social-icon github-icon"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/lhoraine-joyce-buen-6a9138279/" class="social-icon"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-content slide-in-right">
+    <img src="picture main.png" alt="Lhoraine">
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" data-link="#about">
+  <div class="title-content animate-section animate-fade-up">
+    <h2>WHO AM I</h2>
+    <h1>About me</h1>
+    <hr> 
+  </div>
+
+  <div class="about-content">
+    <div class="about-image animate-section animate-fade-left delay-1">
+      <img src="about img.png" alt="Profile photo" />
+    </div>
+    <div class="about-text animate-section animate-fade-right delay-1">
+      <p>
+        Hi! I'm Lhoraine Joyce Buen, an Information Technology student at Rizal Technological University 
+        with a growing passion for front-end development and UI design. I'm driven by the idea of creating 
+        beautiful, functional, and user-centered web experiences that not only look good but also feel 
+        intuitive and seamless to use. As an aspiring Front-end Developer and UI Designer, I enjoy turning 
+        ideas into interactive digital solutions using HTML, CSS, JavaScript, and modern design tools. 
+        I believe that great design is more than just aesthetics—it's about solving problems, telling stories, 
+        and creating meaningful experiences for users.
+      </p>
+      <div class="cv-btn">
+        <button class="downloadbtn">Download CV <i class="fa fa-download"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="gap"></div>
+
+  <div class="title-content animate-section animate-fade-up delay-2">
+    <h1>My Skills</h1>
+    <hr>
+  </div>
+
+  <div class="skills-section">
+    <div class="skills-card animate-section animate-fade-up delay-3">
+      <div class="skills-header">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="#1BA4F4" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="skills-grid"> 
+        <div class="skill"><img src="html-logo.png" alt="HTML5"><span>HTML5</span></div>
+        <div class="skill"><img src="css-logo.png" alt="CSS"><span>CSS</span></div>
+        <div class="skill"><img src="C++-logo.png" alt="C++"><span>C++</span></div>
+        <div class="skill"><img src="python-original.png" alt="Python"><span>Python</span></div>
+        <div class="skill"><img src="java.png" alt="Java"><span>Java</span></div>
+        <div class="skill"><img src="mysql.png" alt="MySQL"><span>MySQL</span></div>
+      </div> 
+    </div>
+
+    <div class="skills-card animate-section animate-fade-up delay-4">
+      <div class="skills-header">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#1BA4F4" d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4l54.1 0 109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109 0-54.1c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7L352 176c-8.8 0-16-7.2-16-16l0-57.4c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
+        <h2>Software Tools</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill"><img src="figma.png" alt="Figma"><span>Figma</span></div>
+        <div class="skill"><img src="capcut.jpg" alt="Capcut"><span>Capcut</span></div>
+        <div class="skill"><img src="canva.png" alt="Canva"><span>Canva</span></div>
+        <div class="skill"><img src="Microsoft_Office_Access.svg" alt="Microsoft Access"><span>Microsoft Access</span></div>
+        <div class="skill"><img src="microsoft-office.png" alt="Microsoft Office"><span>Microsoft Office</span></div>
+        <div class="skill"><img src="blender-original.png" alt="Blender"><span>Blender</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" data-link="#portfolio">
+  <div class="portfolio-gap"></div>
+  <div class="title-content animate-section animate-fade-up"> 
+    <div class="portfolio-title">
+      <h1>My Portfolio</h1>
+      <hr>
+    </div>
+  </div>
+  
+  <div class="project-section animate-section animate-fade-up delay-1">
+    <div class="project-wrapper"> 
+      <div class="project-card animate-section animate-fade-up">
+        <img src="project.png" alt="project-thumbnail">
+        <div class="project-title">
+          <h2>Diabetes PH Appointment System Prototype</h2>
+          <a href="https://www.figma.com/proto/YnFAOQ1HjSyNeqwDLOITi6/Diabetes-PH-Appointment-System--Community-?node-id=2026-173&p=f&t=2YZlfr8zcK0qTrBn-0&scaling=min-zoom&content-scaling=fixed&page-id=2026%3A169&starting-point-node-id=2026%3A173" target="_blank" class="btn">
+            Visit Site <i class="fa fa-external-link" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card animate-section animate-fade-up">
+        <img src="project.png" alt="project-thumbnail">
+        <div class="project-title">
+          <h2>Diabetes PH Appointment System Prototype</h2>
+          <a href="https://www.figma.com/proto/YnFAOQ1HjSyNeqwDLOITi6/Diabetes-PH-Appointment-System--Community-?node-id=2026-173&p=f&t=2YZlfr8zcK0qTrBn-0&scaling=min-zoom&content-scaling=fixed&page-id=2026%3A169&starting-point-node-id=2026%3A173" target="_blank" class="btn">
+            Visit Site <i class="fa fa-external-link" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card animate-section animate-fade-up">
+        <img src="project.png" alt="project-thumbnail">
+        <div class="project-title">
+          <h2>Diabetes PH Appointment System Prototype</h2>
+          <a href="https://www.figma.com/proto/YnFAOQ1HjSyNeqwDLOITi6/Diabetes-PH-Appointment-System--Community-?node-id=2026-173&p=f&t=2YZlfr8zcK0qTrBn-0&scaling=min-zoom&content-scaling=fixed&page-id=2026%3A169&starting-point-node-id=2026%3A173" target="_blank" class="btn">
+            Visit Site <i class="fa fa-external-link" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card animate-section animate-fade-up">
+        <img src="project.png" alt="project-thumbnail">
+        <div class="project-title">
+          <h2>Diabetes PH Appointment System Prototype</h2>
+          <a href="https://www.figma.com/proto/YnFAOQ1HjSyNeqwDLOITi6/Diabetes-PH-Appointment-System--Community-?node-id=2026-173&p=f&t=2YZlfr8zcK0qTrBn-0&scaling=min-zoom&content-scaling=fixed&page-id=2026%3A169&starting-point-node-id=2026%3A173" target="_blank" class="btn">
+            Visit Site <i class="fa fa-external-link" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card animate-section animate-fade-up">
+        <img src="project.png" alt="project-thumbnail">
+        <div class="project-title">
+          <h2>Diabetes PH Appointment System Prototype</h2>
+          <a href="https://www.figma.com/proto/YnFAOQ1HjSyNeqwDLOITi6/Diabetes-PH-Appointment-System--Community-?node-id=2026-173&p=f&t=2YZlfr8zcK0qTrBn-0&scaling=min-zoom&content-scaling=fixed&page-id=2026%3A169&starting-point-node-id=2026%3A173" target="_blank" class="btn">
+            Visit Site <i class="fa fa-external-link" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card animate-section animate-fade-up">
+        <img src="project.png" alt="project-thumbnail">
+        <div class="project-title">
+          <h2>Diabetes PH Appointment System Prototype</h2>
+          <a href="https://www.figma.com/proto/YnFAOQ1HjSyNeqwDLOITi6/Diabetes-PH-Appointment-System--Community-?node-id=2026-173&p=f&t=2YZlfr8zcK0qTrBn-0&scaling=min-zoom&content-scaling=fixed&page-id=2026%3A169&starting-point-node-id=2026%3A173" target="_blank" class="btn">
+            Visit Site <i class="fa fa-external-link" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contactme">
+  <div class="title-content animate-section animate-fade-up"> 
+      <h1>Contact <span> Me! </span></h1>
+      <hr>
+  </div>
+
+  <div class="contact-form animate-section animate-fade-up delay-1">
+    <form action="https://formsubmit.co/lhorainejoycebuen@gmail.com" method="POST" name="contactForm" onsubmit="return validateForm()">
+      <input type="hidden" name="_subject" value="New contact form submission">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="?success=true#contactme">
+      
+      <div class="contact-box">
+          <div class="form-grid">
+              <input type="text" class="field animate-section animate-fade-up" placeholder="Name" name="name" required>
+              <input type="email" class="field animate-section animate-fade-up" placeholder="Email" name="email">
+          </div>
+          <div class="form-grid"> 
+              <input type="tel" class="field animate-section animate-fade-up" placeholder="Phone Number" name="phone">
+              <input type="text" class="field animate-section animate-fade-up" placeholder="Email Subject" name="subject" required>
+          </div>  
+          <div class="message-area"> 
+              <textarea placeholder="Message" class="field animate-section animate-fade-up" name="message" required></textarea> <br>
+          </div>  
+          <div class="submit-container">
+              <button type="submit" class="submit-btn">Send Message</button>
+          </div> 
+      </div>	  
+    </form>
+    
+    <div id="successPopup" class="popup">
+      <div class="popup-content">
+        <span class="close-popup">&times;</span>
+        <h3>Thank you for your message!</h3>
+        <p>I'll get back to you soon.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer> 
+  <p> Designed & Built by Lhoraine Buen </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
