@@ -1015,6 +1015,10 @@ footer p {
   .about-text {
     font-size: 16px;
   }
+
+  .skill-header h2 {
+    font-size: 18px;
+  }
   
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
